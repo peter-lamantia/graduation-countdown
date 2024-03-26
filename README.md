@@ -1,7 +1,7 @@
 # Graduation Countdown Display
 A simple e-ink based countdown timer built with a Raspberry Pi Zero 2 W and the Adafruit 2.13" e-ink bonnet.
 
-# Setup
+## Setup
 To get up and running, there are a few prerequisites you need to install first.
 
 1. Enable SPI
