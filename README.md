@@ -12,4 +12,4 @@ To get up and running, there are a few prerequisites you need to install first.
 3. Install DejaVu TTF Font and Pillow
    - `sudo apt-get install fonts-dejavu python3-pil`
 
-That's it! Assuming you've already snapped on the bonnet, you should be good to go!\
+That's it! Assuming you've already snapped on the bonnet, you should be good to go!
