@@ -15,9 +15,9 @@ To get up and running, there are a few prerequisites you need to install first.
 ## Setup
 We want this display to update once an hour, and at boot.
 
-1. Save the `main.py` file to a memorable place. I saved mine in `/opt/graduation_countdown/main.py`.
+1. Save the `main.py` file to a memorable place. I saved mine in `/opt/graduation-countdown/main.py`.
 2. Edit the crontab with `crontab -e`. Add the following lines:
-   - `@reboot /opt/graduation_countdown/main.py`
-   - `@hourly /opt/graduation_countdown/main.py`
+   - `@reboot /usr/bin/python /opt/graduation-countdown/main.py`
+   - `@hourly /usr/bin/python /opt/graduation-countdown/main.py`
 
 That's it! Assuming you've already snapped on the bonnet, you should be good to go!
