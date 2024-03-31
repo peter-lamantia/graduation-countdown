@@ -1,6 +1,9 @@
 # Graduation Countdown Display
 A simple e-ink based countdown timer built with a Raspberry Pi Zero 2 W and the Adafruit 2.13" e-ink bonnet.
 
+![The assembled display.](/assembled-display.jpg "Assembled display")
+
+
 ## Pre-requisites
 To get up and running, there are a few prerequisites you need to install first.
 
@@ -11,6 +14,7 @@ To get up and running, there are a few prerequisites you need to install first.
    - `sudo pip3 install adafruit-circuitpython-epd`
 3. Install DejaVu TTF Font and Pillow
    - `sudo apt-get install fonts-dejavu python3-pil`
+
 
 ## Setup
 We want this display to update once an hour, and at boot.
